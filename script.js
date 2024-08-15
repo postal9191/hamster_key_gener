@@ -18,6 +18,11 @@ const gameConfigs = {
         APP_TOKEN: '82647f43-3f87-402d-88dd-09a90025313f',
         PROMO_ID: 'c4480ac7-e178-4973-8061-9ed5b2e17954',
         EVENTS_DELAY: 120000
+    },
+    mergeAway: {
+        APP_TOKEN: '8d1cc2ad-e097-4b86-90ef-7a27e19fb833',
+        PROMO_ID: 'dc128d28-c45b-411c-98ff-ac7726fbaea4',
+        EVENTS_DELAY: 20000
     }
 };
 
