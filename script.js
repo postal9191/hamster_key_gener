@@ -28,6 +28,21 @@ const gameConfigs = {
         APP_TOKEN: '61308365-9d16-4040-8bb0-2f4a4c69074c',
         PROMO_ID: '61308365-9d16-4040-8bb0-2f4a4c69074c',
         EVENTS_DELAY: 20000
+    },
+    polysphere: {
+        APP_TOKEN: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+        PROMO_ID: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+        EVENTS_DELAY: 3000
+    },
+    mow_and_Trim: {
+        APP_TOKEN: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
+        PROMO_ID: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
+        EVENTS_DELAY: 31000
+    },
+    mud_Racing: {
+        APP_TOKEN: '8814a785-97fb-4177-9193-ca4180ff9da8',
+        PROMO_ID: '8814a785-97fb-4177-9193-ca4180ff9da8',
+        EVENTS_DELAY: 31000
     }
 };
 
@@ -79,7 +94,7 @@ document.getElementById('startBtn').addEventListener('click', async () => {
             return null;
         }
 
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < 16; i++) {
             await sleep(EVENTS_DELAY * delayRandom());
             const hasCode = await emulateProgress(clientToken, PROMO_ID);
             updateProgress(9 / keyCount);
