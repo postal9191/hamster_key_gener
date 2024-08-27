@@ -9,11 +9,11 @@ const gameConfigs = {
         PROMO_ID: 'b4170868-cef0-424f-8eb9-be0622e8e8e3',
         EVENTS_DELAY: 22000
     },
-    cloneArmy: {
-        APP_TOKEN: '74ee0b5b-775e-4bee-974f-63e7f4d5bacb',
-        PROMO_ID: 'fe693b26-b342-4159-8808-15e3ff7f8767',
-        EVENTS_DELAY: 120000
-    },
+    // cloneArmy: {
+    //     APP_TOKEN: '74ee0b5b-775e-4bee-974f-63e7f4d5bacb',
+    //     PROMO_ID: 'fe693b26-b342-4159-8808-15e3ff7f8767',
+    //     EVENTS_DELAY: 120000
+    // },
     trainMiner: {
         APP_TOKEN: '82647f43-3f87-402d-88dd-09a90025313f',
         PROMO_ID: 'c4480ac7-e178-4973-8061-9ed5b2e17954',
