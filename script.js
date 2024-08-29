@@ -43,6 +43,11 @@ const gameConfigs = {
         APP_TOKEN: '8814a785-97fb-4177-9193-ca4180ff9da8',
         PROMO_ID: '8814a785-97fb-4177-9193-ca4180ff9da8',
         EVENTS_DELAY: 31000
+    },
+    cafeDash: {
+        APP_TOKEN: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
+        PROMO_ID: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
+        EVENTS_DELAY: 31000
     }
 };
 
